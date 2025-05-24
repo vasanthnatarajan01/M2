@@ -119,20 +119,18 @@ Write a C program to perform addition and subtraction of two numbers using funct
         scanf("%d%d",&a,&b);
         c = add(a,b);
         d = sub(a,b);
-        printf("Addition: %d\n",c);
-        printf("Subtraction: %d",d);
     }
     int add(int x,int y)
     {
         int z;
         z = x + y;
-        return z;
+        printf("Addition: %d\n",c);
     }
     int sub(int x,int y)
     {
         int z;
         z = x - y;
-        return z;
+        printf("Subtraction: %d",d);
     }
 
 ## OUTPUT:
